@@ -24,7 +24,7 @@ export default class Carousel extends Component {
     autoplay: PropTypes.bool,
     delay: PropTypes.number,
     currentPage: PropTypes.number,
-    style: View.propTypes.style,
+    style: PropTypes.style,
     pageStyle: View.propTypes.style,
     contentContainerStyle: View.propTypes.style,
     pageInfo: PropTypes.bool,
